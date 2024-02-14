@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.button{
+    height:35px;
+    color: #fc63a7;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 10px;
+    margin: 25px;
+}
+.name{
+    text-align: center;
+    background-color: #fddddb;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: black;
+    padding:50px;
+}
+.show-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:50px;
+}
